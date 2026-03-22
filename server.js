@@ -8,6 +8,6 @@ app.get("/api-key", (req, res) => {
     res.send(process.env.API_KEY);
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Servidor corriendo en http://localhost:3000");
 });
