@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi Mapa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="mapaContenedor">
+        <nav>
+            <ul id="formContenedor">
+                <li><span class="bus"></span>
+                    <p class="titulo">TransMilenio En Linea</p>
+                </li>
+                <li class="form"><input type="text" class="buscador" placeholder="Buscar estación"><span
+                        class="logo"></span></li>
+            </ul>
+        </nav>
+        <div class="mapa"></div>
+        <div class="flashCard">
+            <div class="infoCard">
+                <div class="ubi ubiIcono"></div>
+                <div class="nombreEstacion"></div>
+                <div class="cerrar"></div>
+            </div>
+            <div class="rutas">
+                <div class="rutaInfo">
+                    <p>Rutas disponibles</p>
+                    <div class="busIcono busCard"></div>
+                </div>
+                <div class="rutasDisponibles"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="mapa.js"></script>
+</body>
+
+</html>
