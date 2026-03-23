@@ -36,3 +36,7 @@ https://transmilenioenlinea.onrender.com
 - HTML, CSS, JavaScript
 - Node.js + Express
 - Google Maps JavaScript API
+
+##Documentacion de Google:
+https://developers.google.com/maps/documentation/javascript/reference/map?hl=es-419
+
