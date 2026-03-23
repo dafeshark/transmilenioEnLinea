@@ -11,7 +11,7 @@ Mapa interactivo de las estaciones de TransMilenio en Bogotá.
   
 ## Verlo en linea:
 
--entra al siguiente link:
+Entra al siguiente link:
 https://transmilenioenlinea.onrender.com
 
 ## Cómo correr el proyecto
